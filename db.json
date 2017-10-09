@@ -1,0 +1,53 @@
+{
+  "categories": [
+    { "id": 10, "context": "MEDICAMENTOS", "area": "ANALGESICO", "group": "Aminas" },
+    { "id": 11, "context": "MEDICAMENTOS", "area": "ANALGESICO", "group": "AINES" },
+    { "id": 15, "context": "MEDICAMENTOS", "area": "ANALGESICO", "group": "Cannabinoides" },
+    { "id": 16, "context": "MEDICAMENTOS", "area": "ANALGESICO", "group": "Opioide" },
+    { "id": 20, "context": "MEDICAMENTOS", "area": "ANTIINFLAMATORIOS", "group": "Tópico" },
+    { "id": 30, "context": "MEDICAMENTOS", "area": "ANTIBIOTICOS", "group": "Tópico" },
+    { "id": 50, "context": "MEDICAMENTOS", "area": "DIABETES", "group": "Diabetes" },
+    { "id": 60, "context": "MEDICAMENTOS", "area": "DERMATOLOGICOS", "group": "Tópico" },
+
+    { "id": 101, "context": "BELLEZA", "area": "DERMATOLOGICOS", "group": "Protector Solar" },
+    { "id": 105, "context": "BELLEZA", "area": "DEPORTIVOS", "group": "Parches" },
+    { "id": 106, "context": "BELLEZA", "area": "DEPORTIVOS", "group": "Vendas" },
+    { "id": 111, "context": "BELLEZA", "area": "PRESENTACIÓN", "group": "Desodrante de hombre" },
+    { "id": 112, "context": "BELLEZA", "area": "PRESENTACIÓN", "group": "Desodrante de mujer" },
+    { "id": 114, "context": "BELLEZA", "area": "PRESENTACIÓN", "group": "Desodrante ambiental" },
+
+    { "id": 141, "context": "BELLEZA", "area": "PRESENTACIÓN", "group": "Perfume de hombre" },
+    { "id": 142, "context": "BELLEZA", "area": "PRESENTACIÓN", "group": "Perfume de mujer" }
+
+  ],
+
+  "products": [
+    { "id": 10, "category": 10, "name": "Paracetamol" },
+    { "id": 20, "category": 10, "name": "Dimetilamina" },
+    { "id": 30, "category": 11, "name": "Ibuprofeno" },
+    
+    { "id": 40, "category": 11, "name": "Naproxen" },
+    { "id": 50, "category": 15, "name": "Anandamida" },
+    { "id": 60, "category": 16, "name": "Morfina" },
+    { "id": 80, "category": 16, "name": "Codeina" },
+
+    { "id": 105, "category": 101, "name": "Factor 30" },
+    { "id": 104, "category": 101, "name": "Factor 50" },
+    { "id": 121, "category": 105, "name": "Parche con dibujos" },
+    { "id": 122, "category": 105, "name": "Parche" },
+    { "id": 123, "category": 105, "name": "Parche deportivo" },
+    
+    { "id": 141, "category": 105, "name": "Venda chica" },
+    { "id": 142, "category": 105, "name": "Venda grande" },
+    { "id": 143, "category": 105, "name": "Venda desechable" },
+    { "id": 144, "category": 105, "name": "Venda de articulación" },
+    
+    { "id": 1042, "category": 111, "name": "OldSpice" },
+    { "id": 1045, "category": 111, "name": "AXE" },
+    { "id": 1067, "category": 112, "name": "Citric" },
+    { "id": 1072, "category": 111, "name": "Desodrante Nieve" },
+    { "id": 1073, "category": 112, "name": "Desodrante Nieve" }
+
+  ]
+
+}

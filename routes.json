@@ -1,0 +1,15 @@
+{
+  "/api/*": "/$1",
+  "/:resource/:id/show": "/:resource/:id",
+  
+  "/categorias": "/categories?_page=1&_limit=10",
+  "/categorias?page=:page": "/categories?_page=:page&_limit=10",
+  "/categorias/:id": "/categories/:id",
+  
+  "/productos": "/products?_page=1&_limit=10",
+  "/productos?page=:page": "/products?_page=page&_limit=10",
+  "/productos?category=:category": "/products?category=:category",
+  "/productos/:id": "/products/:id",
+
+  "/articles\\?id=:id": "/posts/:id"
+}
